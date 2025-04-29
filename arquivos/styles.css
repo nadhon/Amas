@@ -12,7 +12,7 @@ body {
 }
 /* Estilos do Header e Menu */
 header {
-    background-color: #333;
+    background-color: #664949;
     color: #fff;
     text-align: center;
     position: relative;
@@ -65,14 +65,16 @@ main {
 }
 
 section {
-    padding: 2em;
+    padding: 2px; /* ajuste da imagem*/
     margin: 20px 0;
+    display: flex;
 }
 
 /* Estilos para Imagens na Home */
 #home img {
-    width: 100%;
+    width: 100vw;
     height: auto;
+    display: flex;
 }
 
 /* Estilos para a Seção de Associação */
@@ -87,7 +89,7 @@ section {
 div.hist {
     margin: 0 100px;
     background-color: rgb(245, 207, 213);
-    padding: 20px;
+    padding: 2px;
 }
 
 h2.hist {
