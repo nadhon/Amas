@@ -7,12 +7,14 @@ body, h1, h2, p {
 /* Estilos Gerais */
 body {
     font-family: Arial, sans-serif;
+    background-color: rgb(202, 202, 202);
+    color: #333;
     margin: 0;
     padding: 0;
 }
 /* Estilos do Header e Menu */
 header {
-    background-color: #333;
+    background-color: #dbdbdb;
     color: #fff;
     text-align: center;
     position: relative;
@@ -31,6 +33,51 @@ div.menu {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 999;
 }
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    
+    color: #000000;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 2px;
+
+}
+
+.menu ul li a:hover, .menu ul li a.active {
+    background-color: rgb(190,0230,248);
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    display: flex;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    list-style-type: none;
+    margin: 2px;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 79px; /* Ajuste para considerar a altura do menu fixo */
+    z-index: 1000; 
+}
+
+nav ul {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 img.logo{
     width: 125px;
@@ -39,10 +86,12 @@ img.logo{
 }
 
 nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    list-style-type: none;
+    padding: 2px;
+    margin: 2px;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav li {
@@ -65,14 +114,16 @@ main {
 }
 
 section {
-    padding: 2em;
+    padding: 2px; /* ajuste da imagem*/
     margin: 20px 0;
+    display: block;
 }
 
 /* Estilos para Imagens na Home */
 #home img {
-    width: 100%;
+    width: 100vw;
     height: auto;
+    display: flex;
 }
 
 /* Estilos para a Seção de Associação */
@@ -87,7 +138,7 @@ section {
 div.hist {
     margin: 0 100px;
     background-color: rgb(245, 207, 213);
-    padding: 20px;
+    padding: 2px;
 }
 
 h2.hist {
