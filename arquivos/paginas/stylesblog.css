@@ -237,18 +237,18 @@ form input, form button {
     z-index: 2; /* Define a ordem de empilhamento */
 }
 #blog h2{
-    background: linear-gradient(to right, 
-    red, 
-    orange, 
-    yellow, 
-    green, 
-    blue, 
-    indigo, 
-    violet
+    background: linear-gradient(to right, red 0%, red 14.3%,
+    orange 14.3%, orange 28.6%,
+    yellow 28.6%, yellow 42.9%,
+    green 42.9%, green 57.2%,
+    blue 57.2%, blue 71.5%,
+    indigo 71.5%, indigo 85.8%,
+    violet 85.8%, violet 100%
   );
     padding: 40px;
     border-radius: 8px;
     font-family: Arial,;
+    font-weight: bold;
 }
 
 #info-lgbtfobia h2 {

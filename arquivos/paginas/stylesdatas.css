@@ -76,6 +76,7 @@ img.logo{
 
 nav {
     background-color:  rgb(243, 138, 138);
+    display: flex;
     padding: 10px 0;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -107,7 +108,7 @@ nav ul li a {
 }
 
 nav ul li a:hover, nav ul li a.active {
-    background-color: #ff6b6b;
+    background-color: #ff7979;
     color: white;
 }
 
