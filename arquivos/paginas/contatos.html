@@ -7,51 +7,132 @@
     <title>Contatos</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
+    font-family: Arial, sans-serif;
+    background-color: rgb(190,0230,248);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
-        div.menu {
-            background-color: white;
-            position:fixed;
-            display: flex;
-            align-items: center;
-            justify-content:flex-start;
-            width: 100%;
-            top: 0;
-            padding: 0;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            z-index: 999;
-        }
+header {
+    background-color: #ffffff;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    top: 80px;
+            height: 80px;
+            padding-top: 120px;
+}
 
-        img.logo{
-            width: 125px;
-            height: 90px;
-            margin-right: 20px;
-        }
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    top: 80px;
+            height: 80px;
+            padding-top: 120px;
+}
 
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+    top: 80px;
+            height: 80px;
+            padding-top: 120px;
+}
 
-        nav li {
-            margin-right: 20px;
-        }
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    top: 80px;
+    height: 80px;
+    padding-top: 120px;
+}
 
-        nav a.menu-link {
-            color: black;
-            text-decoration: none;
-            padding: 0 15px;
-        }
+div.menu {
+    background-color: white;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    width: 100%;
+    top: 0;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
 
-        nav a.menu-link:hover {
-            text-decoration: underline;
-        }
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    
+    color: #000000;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 2px;
+
+}
+
+.menu ul li a:hover, .menu ul li a.active {
+    background-color: rgb(190,0230,248);
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    display: flex;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    list-style-type: none;
+    margin: 2px;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 79px; /* Ajuste para considerar a altura do menu fixo */
+    z-index: 1000; 
+}
+
+nav ul {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+img.logo{
+    width: 125px;
+    height: 90px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 2px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a.menu-link {
+    color: black;
+    text-decoration: none;
+    padding: 0.2vw;
+}
+
+nav a.menu-link:hover {
+    text-decoration: underline;
+}
 
         .container {
             width: 80%;
@@ -59,20 +140,23 @@
             overflow: hidden;
         }
         header {
-            background: #afcfdd;
-            color: #fff;
+            
+            color: #000000;
             padding-top: 120px;
             min-height: 70px;
-            border-bottom: #77aaff 3px solid;
+
         }
         header h1 {
+            display: center;
             color: #000;
             text-align: center;
+            padding: auto;
             margin: 0;
-            font-size: 24px;
+            font-size: 30px;
+            
         }
         .info-contatos {
-            background: #afcfdd;
+            background: #ffffff;
             padding: 20px;
             margin-top: 20px;
             border-radius: 5px;
@@ -85,7 +169,7 @@
             margin: 5px 0;
         }
         .form-container {
-            background: #afcfdd;
+            background: #ffffff;
             padding: 20px;
             margin-top: 20px;
             border-radius: 5px;
