@@ -1,0 +1,40 @@
+div.menu {
+    background-color: white;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    width: 100%;
+    top: 0;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    
+}
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    
+    color: #000000;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 2px;
+    text-decoration: none;
+
+}
+
+.menu ul li a:hover, .menu ul li a.active {
+    background-color: rgb(190,0230,248);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}

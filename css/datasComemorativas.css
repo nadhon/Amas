@@ -32,19 +32,7 @@ header p {
     font-size: 1.1rem;
 } 
 
-.menu {
-    background-color: white;
-    position:fixed;
-    display: flex;
-    align-items: center;
-    justify-content:flex-start;
-    width: 100%;
-    top: 0;
-    padding: 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 999;
-    
-}
+
 
 img.logo{
     width: 115px;
@@ -52,30 +40,7 @@ img.logo{
     margin-right: 10px;
 }
 
-.menu ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-}
 
-.menu ul li {
-    margin: 0 15px;
-}
-
-.menu ul li a {
-    
-    color: #000000;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 2px;
-
-}
-
-.menu ul li a:hover, .menu ul li a.active {
-    background-color: rgb(190,0230,248);
-    color: rgb(255, 255, 255);
-}
 
 nav {
     display: flex;
@@ -107,13 +72,16 @@ nav ul li a {
     color: #000000;
     font-weight: bold;
     padding: 1px;
-    border-radius: 2px;
-    transition: background-color 0.3s, color 0.3s;
+    
+    padding: 5px 10px;
 }
 
 nav ul li a:hover, nav ul li a.active {
     background-color: rgb(190,0230,248);
     color: rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    
 }
 
 section#datas {
@@ -127,37 +95,41 @@ section#datas h2 {
     color: #444;
     font-size: 2rem;
 }
-
 .month {
     display: none;
     background-color: #fff;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 12px;
+    padding: 30px; /* aumentei um pouco para melhorar a aparência */
+    margin: 30px auto; /* centraliza o bloco */
+    
+    width: 100%; /* ocupa 90% da largura da tela */
+    max-width: 1400px; /* mas nunca mais que 900px */
+    
+    height: auto;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
     opacity: 0;
     transform: translateY(20px);
 }
 
-.month.active {
-    display: block;
-    opacity: 1;
-    transform: translateY(0);
-}
+    .month.active {
+        display: block;
+        opacity: 1;
+        transform: translateY(0);
+    }
 
-.month img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
-    margin-top: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-}
+    .month img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+        margin-top: 25px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+    }
 
-.month img:hover {
-    transform: scale(1.05);
-}
+    .month img:hover {
+        transform: scale(1.05);
+    }
 
 footer {
     font-size: 12px;
