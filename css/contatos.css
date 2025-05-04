@@ -32,7 +32,7 @@ img.logo {
 
 .container {
   width: 80%;
-  margin: auto;
+  margin: auto auto 1rem auto;
   overflow: hidden;
 }
 header {

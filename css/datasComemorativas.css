@@ -19,8 +19,8 @@ header {
     color: white;
     text-align: center;
     top: 80px;
-            height: 80px;
-            padding-top: 120px;
+    height: 80px;
+    padding-top: 120px;
 }
 
 header h1 {
@@ -30,17 +30,13 @@ header h1 {
 
 header p {
     font-size: 1.1rem;
-} 
+}
 
-
-
-img.logo{
+img.logo {
     width: 115px;
     height: 80px;
     margin-right: 10px;
 }
-
-
 
 nav {
     display: flex;
@@ -51,8 +47,9 @@ nav {
     margin: 2px;
     justify-content: center;
     flex-wrap: wrap;
-    top: 79px; /* Ajuste para considerar a altura do menu fixo */
-    z-index: 1000; 
+    top: 90px;
+    /* Ajuste para considerar a altura do menu fixo */
+    z-index: 1000;
 }
 
 nav ul {
@@ -72,22 +69,23 @@ nav ul li a {
     color: #000000;
     font-weight: bold;
     padding: 1px;
-    
+
     padding: 5px 10px;
 }
 
-nav ul li a:hover, nav ul li a.active {
-    background-color: rgb(190,0230,248);
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: rgb(190, 0230, 248);
     color: rgb(0, 0, 0);
     border-radius: 20px;
     transition: background-color 0.3s, color 0.3s;
-    
+
 }
 
 section#datas {
     padding: 20px;
     max-width: 500px;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 section#datas h2 {
@@ -95,15 +93,20 @@ section#datas h2 {
     color: #444;
     font-size: 2rem;
 }
+
 .month {
     display: none;
     background-color: #fff;
-    padding: 30px; /* aumentei um pouco para melhorar a aparência */
-    margin: 30px auto; /* centraliza o bloco */
-    
-    width: 100%; /* ocupa 90% da largura da tela */
-    max-width: 1400px; /* mas nunca mais que 900px */
-    
+    padding: 30px;
+    /* aumentei um pouco para melhorar a aparência */
+    margin: 30px auto;
+    /* centraliza o bloco */
+
+    width: 100%;
+    /* ocupa 90% da largura da tela */
+    max-width: 1400px;
+    /* mas nunca mais que 900px */
+
     height: auto;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -112,35 +115,23 @@ section#datas h2 {
     transform: translateY(20px);
 }
 
-    .month.active {
-        display: block;
-        opacity: 1;
-        transform: translateY(0);
-    }
+.month.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
 
-    .month img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 15px;
-        margin-top: 25px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s ease;
-    }
+.month img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
 
-    .month img:hover {
-        transform: scale(1.05);
-    }
-
-footer {
-    font-size: 12px;
-    text-align: center;
-    padding: 20px 0;
-    position: absolute;
-    width: 100%;
-    bottom: 1;
-    background-color:rgb(190,0230,248);
-    color: rgb(0, 0, 0);
-    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+.month img:hover {
+    transform: scale(1.05);
 }
 
 /* Estilos Responsivos */
