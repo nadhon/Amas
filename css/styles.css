@@ -6,6 +6,7 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /* Reset de Margens e Padding */
@@ -34,12 +35,6 @@ header {
   z-index: 1000;
 }
 
-img.logo {
-  width: 125px;
-  height: 90px;
-  margin-right: 20px;
-}
-
 /* Estilos para o Main */
 
 section {
@@ -59,7 +54,7 @@ section {
 #assoc {
   display: flex;
   flex-direction: row;
-  margin: 100px 0;
+  margin: 1rem 0;
   align-items: center;
   justify-content: center;
 }

@@ -1,21 +1,28 @@
 div.menu {
     background-color: white;
-    position:fixed;
+    position: fixed;
     display: flex;
     align-items: center;
-    justify-content:flex-start;
+    justify-content: flex-start;
     width: 100%;
     top: 0;
     padding: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 999;
-    
 }
+
+img.logo {
+    width: 125px;
+    height: 90px;
+    margin-right: 20px;
+}
+
 .menu ul {
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
     width: 100%;
+    padding-left: 40px;
 }
 
 .menu ul li {
@@ -23,7 +30,7 @@ div.menu {
 }
 
 .menu ul li a {
-    
+
     color: #000000;
     font-weight: bold;
     padding: 5px 10px;
@@ -32,8 +39,9 @@ div.menu {
 
 }
 
-.menu ul li a:hover, .menu ul li a.active {
-    background-color: rgb(190,0230,248);
+.menu ul li a:hover,
+.menu ul li a.active {
+    background-color: rgb(190, 0230, 248);
     color: rgb(0, 0, 0);
     border-radius: 20px;
     transition: background-color 0.3s, color 0.3s;
