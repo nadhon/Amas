@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(190,0230,248);
     color: #333;
     margin: 0;
     padding: 0;
@@ -16,32 +16,29 @@ header {
     padding-top: 120px;
 }
 
-
-
 img.logo {
     width: 125px;
     height: 90px;
     margin-right: 20px;
 }
 
-
-
 h1 {
     background-color: rgb(190, 230, 248);
     text-align: center;
-    color: #333;
+    color: #000000;
     width: 100%;
     top: 80px;
-    height: 80px;
-    padding-top: 120px;
+    height: 100px;
+    padding-top: 80px;
 }
 
 #equipe-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 800px;
-    margin: 20px auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 20px auto;
 }
 
 .membro {

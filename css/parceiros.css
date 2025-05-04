@@ -16,7 +16,6 @@ header {
   padding-top: 120px;
 }
 
-
 img.logo {
   width: 125px;
   height: 90px;
@@ -29,8 +28,8 @@ h1 {
   color: #333;
   width: 100%;
   top: 80px;
-  height: 80px;
-  padding-top: 120px;
+  height: 100px;
+  padding-top: 80px;
 }
 
 #parceiros-container {
