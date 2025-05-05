@@ -51,7 +51,7 @@ header p {
   transform: translateY(-5px);
 }
 
-.logo {
+.logo-card {
   width: auto;
   height: 120px;
   object-fit: contain;
