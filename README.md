@@ -18,9 +18,9 @@ Este repositório contém o desenvolvimento de um projeto web realizado para a d
 
 ## :black_nib: Autores
 
-- [@darkiane](https://github.com/darkiane)
+- [@Darkiane22](https://github.com/Darkiane22)
 - [@LucasLins13](https://github.com/LucasLins13)
 - [@luizeduardo-yk](https://github.com/luizeduardo-yk)
 - [@nadhon](https://github.com/nadhon)
 - [@PedroGuilhermeYS](https://github.com/PedroGuilhermeYS)
-- [@Tulio](https://github.com/tulio)
+- [@TulioLins](https://github.com/TulioLins)
