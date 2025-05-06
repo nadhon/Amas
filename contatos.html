@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./img/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/contatos.css">
@@ -27,27 +28,39 @@
         
     </div>
 
-    <h1>ENTRE EM CONTATO CONOSCO</h1>
+    <div id="main">
 
-    <div class="container">
-        <div class="info-contatos">
-            <h2>Informações de Contato</h2>
-            <p><strong>E-mail:</strong> <a href="mailto:amaslgbt@gmail.com">amaslgbt@gmail.com</a></p>
-            <p><strong>Telefone:</strong> (81) 99775-5219</p>
-            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/amaslgbt/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA%3D%3D">@amaslgbt</a></p>
-            <p><strong>Endereço:</strong> Rua A nº 31, Cohab 1, Palmares - PE</p>
-            <p><strong>Formulário de Cadastramento:</strong> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMGfDnJiyOgD9WX5IcCdhi4tBFpq-IdbqbPxLwciBbU4o_1A/viewform">Cadastre-se</a></p>
-        </div>
-        <div class="form-container">
-            <h2>Envie uma Mensagem</h2>
-            <form id="contactForm" action="#" method="post">
-                <input type="text" name="nome" placeholder="Nome" required>
-                <input type="email" name="email" placeholder="E-mail" required>
-                <input type="number" name="telefone" placeholder="Telefone" required>
-                <input type="text" name="cidade" placeholder="Cidade" required>
-                <textarea name="mensagem" placeholder="Mensagem" rows="5" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
+        <h1>ENTRE EM CONTATO CONOSCO</h1>
+        <div class="container">
+            <div class="card">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email</h3>
+                <a class="card-info" href="mailto:amaslgbt@gmail.com">amaslgbt@gmail.com</a>
+            </div>
+    
+            <div class="card">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Telefone</h3>
+                <p class="card-info">(81) 99775-5219</p>
+            </div>
+    
+            <div class="card">
+                <i class="fa-brands fa-instagram"></i>
+                <h3>Instagram</h3>
+                <a class="card-info" href="https://www.instagram.com/amaslgbt/" target="_blank">@amaslgbt</a>
+            </div>
+    
+            <div class="card">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Endereço</h3>
+                <p class="card-info">Rua A nº 31, Cohab 1, Palmares - PE</p>
+            </div>
+    
+            <div class="card">
+                <i class="fa-solid fa-file-lines"></i>
+                <h3>Formulário de cadastramento:</h3>
+                <a class="card-info" href="https://docs.google.com/forms/d/e/1FAIpQLSfMGfDnJiyOgD9WX5IcCdhi4tBFpq-IdbqbPxLwciBbU4o_1A/viewform" target="_blank">Clique aqui</a>
+            </div>
         </div>
     </div>
     
@@ -56,6 +69,5 @@
     </footer>
     
     <script src="./js/dataFooter.js"></script>
-    <script src="./js/contatos.js"></script>
 </body>
 </html>
