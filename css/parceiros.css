@@ -1,32 +1,29 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(190, 230, 248); /* Corrigido */
+  background-color: rgb(190, 230, 248); 
   color: #333;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: rgb(190, 230, 248); /* Corrigido */
-  padding: 20px;
-  color: white;
+  background-color: rgb(190, 230, 248);
+  padding: 100px 20px 40px; 
   text-align: center;
 }
 
-header h1 {
-  background-color: rgb(190, 230, 248); /* Corrigido */
+.header-h1 {
   text-align: center;
-  color: #333;
-  width: 100%;
+  color: #333; 
   margin: 0;
   font-size: 2em;
-  padding: 20px 0; /* Centralizado verticalmente */
+  padding: 20px 0;
 }
 
-header p {
+.header-h2 {
   margin-top: 10px;
   color: #666;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .parceiros {
