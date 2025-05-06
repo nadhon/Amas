@@ -4,4 +4,11 @@ footer {
     color: #fff;
     text-align: center;
     padding: 2rem;
+    max-height: 82px;
+}
+
+footer p {
+    margin: 0;
+    font-size: .9rem;
+    color: #aaa;
 }
