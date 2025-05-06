@@ -48,12 +48,12 @@ nav {
     text-align: center;
     position: sticky;
     list-style-type: none;
-    margin: 2px;
     justify-content: center;
     flex-wrap: wrap;
     top: 90px;
     /* Ajuste para considerar a altura do menu fixo */
     z-index: 1000;
+    background-color: rgb(245, 245, 245);
 }
 
 nav ul {
@@ -70,7 +70,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #000000;
+    color: rgb(60, 60, 60);
     font-weight: bold;
     padding: 1px;
 
@@ -79,8 +79,8 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    background-color: rgb(190, 0230, 248);
-    color: rgb(0, 0, 0);
+    background-color: rgb(255, 200, 220);
+    color: rgb(30, 30, 30);
     border-radius: 20px;
     transition: background-color 0.3s, color 0.3s;
 
@@ -103,7 +103,7 @@ section#datas h2 {
     background-color: #fff;
     padding: 30px;
     /* aumentei um pouco para melhorar a aparência */
-    margin: 30px auto;
+    margin: 42px auto;
     /* centraliza o bloco */
 
     width: 100%;
